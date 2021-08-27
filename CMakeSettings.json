@@ -1,0 +1,69 @@
+
+{
+    "configurations": [
+        {
+            "name": "x64-Debug",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "variables": [
+                {
+                    "name": "32BLIT_DIR",
+                    "value": "/home/phil/Development/pico/32blit-beta",
+                    "type": "PATH"
+                }
+            ]
+        },
+        {
+            "name": "x64-Release",
+            "generator": "Ninja",
+            "configurationType": "Release",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "variables": [
+                {
+                    "name": "32BLIT_DIR",
+                    "value": "/home/phil/Development/pico/32blit-beta",
+                    "type": "PATH"
+                }
+            ]
+        },
+        {
+            "name": "32Blit-Debug",
+            "generator": "Ninja",
+            "configurationType": "Debug",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "gcc-arm" ],
+            "variables": [],
+            "cmakeToolchain": "/home/phil/Development/pico/32blit-beta\\32blit.toolchain",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
+            "name": "32Blit-Release",
+            "generator": "Ninja",
+            "configurationType": "Release",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "cmakeToolchain": "/home/phil/Development/pico/32blit-beta\\32blit.toolchain",
+            "inheritEnvironments": [ "gcc-arm" ],
+            "variables": [],
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ]
+}

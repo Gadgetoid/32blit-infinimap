@@ -1,10 +1,10 @@
-title: stdhash
-description: game description
+title: Infinimap
+description: Infinite Randomly Generated... something
 author: Gadgetoid
 splash:
   file: assets/no-image.png
 icon:
   file: assets/no-icon.png
 version: v0.0.1
-category: game # game, demo, utility, ...
+category: demo
 url: https://github.com/32blit/32blit-boilerplate

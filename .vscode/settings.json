@@ -1,0 +1,7 @@
+
+{
+    "cmake.configureSettings": {
+        "32BLIT_DIR": "/home/phil/Development/pico/32blit-beta"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+} 
